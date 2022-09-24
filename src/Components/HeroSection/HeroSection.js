@@ -25,13 +25,13 @@ const HeroSection = () => {
                 <img className='img-fluid mt-1' src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram Logo"/> 
                 <p className='ms-2'> <a href="/">@idsayyamishah_designstudio</a></p>
               </div>
-              
+
           </div>
         </div>
 
         {/* Services Section */}
 
-      <div className="interior-services mt-5">
+      <div className="container-fluid interior-services mt-5">
 
           <h4 className='services-heading text-center text-sm-start pt-3 px-5'>Services</h4>
 
@@ -65,12 +65,10 @@ const HeroSection = () => {
             <div className="social d-sm-flex">
               <div className="social-handel mt-2 pe-sm-3 pe-md-5 d-flex justify-content-center justify-content-sm-start">
                 <img className='img-fluid mt-1' src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram Logo"/> 
-                {/* <p className='ms-2'>@idsayyamishah</p> */}
                 <p className='ms-2'> <a href="/">@idsayyamishah</a></p>
               </div>
               <div className="social-handel mt-sm-2 d-flex justify-content-center justify-content-sm-start">
                 <img className='img-fluid mt-1' src="https://cdn-icons-png.flaticon.com/512/732/732026.png" alt="Instagram Logo"/> 
-                {/* <p className='ms-2'>sayyamishah@gmail.com</p> */}
                 <p className='ms-2'><a href="mailto:name@email.com">sayyamishah@gmail.com</a></p>
               </div>
             </div>
