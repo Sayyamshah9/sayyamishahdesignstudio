@@ -1,13 +1,12 @@
 import React from 'react'
 import './HeroSection.css'
 
-const HeroSection = (props) => {
+const HeroSection = () => {
   return (
     <>
         {/* HeroSection Heading */}
-        <div className="container mt-5 text-center text-sm-start">
-          <h3 className='hero-heading-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eos sit ducimus vitae sequi odio maiores eaque cum.</h3>
-        </div>
+
+          <h3 className='hero-heading-3 container mt-5 text-center text-sm-start'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eos sit ducimus vitae sequi odio maiores eaque cum.</h3>
 
         {/* HeroSection Main Flex-Box */}
         <div className="container d-md-flex justify-content-between align-items-center text-center text-sm-start pt-4">
@@ -19,52 +18,38 @@ const HeroSection = (props) => {
               <p className='my-work-content'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et voluptatem veritatis totam incidunt iusto hic quos dicta cum, odio quibusdam quas, sed impedit sequi aliquid? Consequatur ipsum magnam nam velit sint commodi nobis neque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et voluptatem veritatis totam incidunt iusto hic quos dicta cum, odio quibusdam quas, sed impedit sequi aliquid? Consequatur ipsum magnam nam velit sint commodi nobis neque.
               </p>
+
               <hr />
+
               <div className="social-handel mt-2 d-flex justify-content-center justify-content-sm-start">
                 <img className='img-fluid mt-1' src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram Logo"/> 
-                {/* <p className='ms-2'>@idsayyamishah_designstudio</p> */}
                 <p className='ms-2'> <a href="/">@idsayyamishah_designstudio</a></p>
               </div>
+              
           </div>
         </div>
 
         {/* Services Section */}
 
-      <div className="interior-services mt-5 container-fluid">
+      <div className="interior-services mt-5">
 
-        <div className="services-main container pt-3 pb-3">
-          <h4 className='services-heading text-center text-sm-start'>Services</h4>
-          <h5 className='text-center text-sm-start services-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus. Aperiam sequi sapiente dignissimos voluptatem iure id perferendis accusantium dolorum.</h5>
-          <div className="row text-center text-sm-right mt-5">
-            <div className="column col-sm-4">
-              <ul>
-                <li>Left Item 1</li>
-                <hr />
-                <li>Left Item 2</li>
-                <hr />
-                <li>Left Item 3</li>
-              </ul>
-            </div>
-            <div className="column col-sm-4">
-              <ul>
-                <li>Middle Item 1</li>
-                <hr />
-                <li>Middle Item 2</li>
-                <hr />
-                <li>Middle Item 3</li>
-              </ul>
-            </div>
-            <div className="column col-sm-4">
-              <ul>
-                <li>Right Item 1</li>
-                <hr />
-                <li>Right Item 2</li>
-                <hr />
-                <li>Right Item 3</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+          <h4 className='services-heading text-center text-sm-start pt-3 px-5'>Services</h4>
+
+          <h5 className='text-center text-sm-start services-content px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus. Aperiam sequi sapiente dignissimos voluptatem iure id perferendis accusantium dolorum.</h5>
+
+          <hr className='w-50 d-none d-sm-block mx-5'/>
+
+          <ul className='row services-list pt-2 text-center pb-4 px-5'>
+            <li className="col-sm-4">Item 1</li>
+            <li className="col-sm-4">Item 2</li>
+            <li className="col-sm-4">Item 3</li>
+            <li className="col-sm-4 py-sm-2">Item 1</li>
+            <li className="col-sm-4 py-sm-2">Item 2</li>
+            <li className="col-sm-4 py-sm-2">Item 3</li>
+            <li className="col-sm-4">Item 1</li>
+            <li className="col-sm-4">Item 2</li>
+            <li className="col-sm-4">Item 3</li>
+          </ul>
 
       </div>
 

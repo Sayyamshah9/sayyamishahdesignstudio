@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Hero Section CSS */
+.hero-heading-3{
+    font-family: 'Montserrat', sans-serif;
+}
 .social-handel img{
     width: 18px;
     height: 18px;
 }
-.hero-heading-3{
-    font-family: 'Montserrat', sans-serif;
-}
-.hero-heading-5{
-    color: #e76f51;
-    font-family: 'Poppins', sans-serif;
-}
-.wim-content .hero-heading-5{
-    color: #e76f51;
-    font-family: 'Poppins', sans-serif;
-}
+
+/* Services Section CSS */
 .interior-services{
-    /* height: 200px; */
     background-color: #faedcd;
 }
 .services-heading{
@@ -26,8 +21,18 @@
 .services-content{
     font-family: 'Montserrat', sans-serif;
 }
-.column ul{
+ul{
     list-style: none;
+}
+
+/* About Section CSS */
+.hero-heading-5{
+    color: #e76f51;
+    font-family: 'Poppins', sans-serif;
+}
+.wim-content .hero-heading-5{
+    color: #e76f51;
+    font-family: 'Poppins', sans-serif;
 }
 a {
     text-decoration: none;
